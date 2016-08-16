@@ -8,40 +8,35 @@
     <link rel="stylesheet" href="/app/app-global-css/bootstrap.css">
     <link rel="stylesheet" href="/app/app-global-css/html5-boilerplate.css">
     <link rel="stylesheet" href="/app/app-global-css/mylondonhome.css">
-    <link rel="stylesheet" href="/app/overview/overview.css">
+    <link rel="stylesheet" href="/property/property.css">
     <script src="/app/app-global-js/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="overview">
+  <body class="property">
 
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
-      <div class="container">
-        <ul>
-          <li>
-            <a class="btn btn-default home button" href="/app/overview/" role="button">
-              Home
-            </a>
-          </li>
-          <li>
-            <a class="btn btn-default map button" href="/app/map/" role="button">
-              Map
-            </a>
-          </li>
-          <li>
-            <a class="btn btn-default leisure button" href="/app/leisure/" role="button">
-              Leisure
-            </a>
-          </li>
-        </ul>
+      <div class="container dash">
+        Property
       </div>
     </nav>
 
-    <div class="container mylondonhome-container">
-
-      <a class="btn btn-success overview" href="/app/instruction/" role="button">
-        Go to MyLondonHome App
-      </a>
-
-    </div><!-- end of mylondonhome-container -->
+  <div class="container">
+    <div class="panel panel-primary mylondonhome-container">
+      <div class="panel-heading">
+        Select the property you wish to view
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="sel1">Select list:</label>
+          <select class="form-control" id="sel1">
+            <option>Insert property here</option>
+            <option>Insert property here1</option>
+            <option>Insert property here2</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-secondary select">Select</button>
+      </div>
+    </div> <!-- end of mylondonhome-container -->
+  </div> <!-- end of container -->
     
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -49,7 +44,7 @@
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
 
-    <script src="/app/overview/overview.js"></script>
+    <script src="/property/property.js"></script>
 
   </body>
 </html>

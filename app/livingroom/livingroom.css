@@ -1,1 +1,6 @@
-/*css goes here*/
+.container{
+	text-align: center;
+}
+.submit{
+	margin-bottom: 5vw;
+}

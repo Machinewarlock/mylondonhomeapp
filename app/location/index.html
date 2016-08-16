@@ -8,30 +8,33 @@
     <link rel="stylesheet" href="/app/app-global-css/bootstrap.css">
     <link rel="stylesheet" href="/app/app-global-css/html5-boilerplate.css">
     <link rel="stylesheet" href="/app/app-global-css/mylondonhome.css">
-    <link rel="stylesheet" href="/app/room-name/room-name.css">
+    <link rel="stylesheet" href="/app/location/location.css">
     <script src="/app/app-global-js/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="room-size">
+  <body class="location">
 
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
       <div class="container">
-        Room Name
+        Location
       </div>
     </nav>
 
   <div class="container">
     <div class="panel panel-primary mylondonhome-container">
       <div class="panel-heading">
-        Review Room Name
+        Review Location of property
       </div>
         <div class="panel-body">
-            <fieldset class="rating one">
-              <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Excellent!"><span>&#9733</span></label>
-              <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good"><span>&#9733</span></label>
-              <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh"><span>&#9733</span></label>
-              <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad"><span>&#9733</span></label>
-              <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time"><span>&#9733</span></label>
-            </fieldset>
+          <form id=rating-form>
+              <fieldset class="rating">
+                <label for="star1" >1 star</label><input type="radio" id="star1" name="rating" value=1 />
+                <label for="star2" >2 stars</label><input type="radio" id="star2" name="rating" value=2 />
+                <label for="star3" >3 stars</label><input type="radio" id="star3" name="rating" value=3 />
+                <label for="star4" >4 stars</label><input type="radio" id="star4" name="rating" value=4 />
+                <label for="star5" >5 stars</label><input type="radio" id="star5" name="rating" value=5 checked/>
+              </fieldset>
+                <a class="btn btn-success" href="/app/thank-you/" role="button">Submit</a>
+            </form>
         </div>
     </div> <!-- end of mylondonhome-container -->
   </div> <!-- end of container -->
@@ -42,7 +45,7 @@
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
 
-    <script src="/app/room-name/room-name.js"></script>
+    <script src="/app/location/location.js"></script>
 
   </body>
 </html>
