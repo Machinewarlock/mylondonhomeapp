@@ -19,19 +19,25 @@
       </div>
     </nav>
 
-    <div class="container mylondonhome-container">
-
-      <section class="view">
-        <div class="card text-xs-center">
-          <div class="card-header">
-            Price
-          </div>
-
+    <div class="container">
+     <div class="panel panel-primary mylondonhome-container">
+      <div class="panel-heading">
+        Review Price of property
+      </div>
+        <div class="panel-body">
+          <form id=rating-form>
+              <fieldset class="rating">
+                <label for="star1" >1 star</label><input type="radio" id="star1" name="rating" value=1 />
+                <label for="star2" >2 stars</label><input type="radio" id="star2" name="rating" value=2 />
+                <label for="star3" >3 stars</label><input type="radio" id="star3" name="rating" value=3 />
+                <label for="star4" >4 stars</label><input type="radio" id="star4" name="rating" value=4 />
+                <label for="star5" >5 stars</label><input type="radio" id="star5" name="rating" value=5 checked/>
+              </fieldset>
+                <a class="btn btn-success" href="" role="button">Submit</a>
+            </form>
         </div>
-
-      </section>
-
-    </div><!-- end of mylondonhome-container -->
+      </div> <!-- end of mylondonhome-container -->
+    </div> <!-- end of container -->
     
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
