@@ -74,3 +74,39 @@
 .panel-body{
     text-align: center;
 }
+.card{
+    text-align: center;
+    margin-top: 5vw;
+}
+.overview {
+    text-align: center;
+    margin-top: 5vw;
+}
+li {
+    display: inline;
+    list-style: none;
+    text-align: center;
+}
+.home{
+    margin-right: 1vw;
+    margin-left: -2vw;
+}
+.map{
+
+    margin-right: 2vw;
+}
+.leisure{
+
+    margin-left: -1vw;
+}
+.button{
+    background-color: white;
+    border-width: 3px;
+    border-color: blue;
+    color: black;
+}
+.button:hover{
+    background-color: #e6e6e6;
+    border-color: #1affb2;
+    color: black;
+}
