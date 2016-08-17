@@ -2,9 +2,9 @@ $('.sign').click(validateMyForm);
 
 function validateMyForm(){
     var x;
-    x = document.getElementById("inputEmail3").value;
+    x = $("#inputEmail3").value;
     var y;
-    y = document.getElementById("inputPassword3").value;
+    y = $("#inputPassword3").value;
     if (x == "") {
         alert("Please enter an email!");
         return false;
