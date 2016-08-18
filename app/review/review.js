@@ -1,5 +1,5 @@
 $('.submit').click(processSubmit);
-
+$('.prop').hide();
 var username = getUsername();
 $('.username').html(username);
 
@@ -41,8 +41,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum += data.val();
 	 		});
 	 		var average = ratingSum / userCount;
+			database.ref('Livingroom-average').update({
+	  		Score: average
+	 	});	 		
 	 		$(".results").html(userCount + " votes recorded (" + average.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 
 	};
 	  if (rating2 = true){
@@ -60,8 +63,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum2 += data.val();
 	 		});
 	 		var average2 = ratingSum2 / userCount2;
+			database.ref('Diningroom-average').update({
+	  		Score: average2
+	 	});	 		
 	 		$(".results2").html(userCount2 + " votes recorded (" + average2.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 
 	}
 	  if (rating3 = true){
@@ -79,8 +85,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum3 += data.val();
 	 		});
 	 		var average3 = ratingSum3 / userCount3;
+			database.ref('Bedroom-average').update({
+	  		Score: average3
+	 	});	 		
 	 		$(".results3").html(userCount3 + " votes recorded (" + average3.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating4 = true){
@@ -98,8 +107,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum4 += data.val();
 	 		});
 	 		var average4 = ratingSum4 / userCount4;
+			database.ref('Bathroom-average').update({
+	  		Score: average4
+	 	});	 		
 	 		$(".results4").html(userCount4 + " votes recorded (" + average4.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating5 = true){
@@ -117,8 +129,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum5 += data.val();
 	 		});
 	 		var average5 = ratingSum5 / userCount5;
+			database.ref('Garden-average').update({
+	  		Score: average5
+	 	});	 		
 	 		$(".results5").html(userCount5 + " votes recorded (" + average5.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating6 = true){
@@ -136,8 +151,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum6 += data.val();
 	 		});
 	 		var average6 = ratingSum6 / userCount6;
+			database.ref('Room-Sizes-average').update({
+	  		Score: average6
+	 	});	 			 		
 	 		$(".results6").html(userCount6 + " votes recorded (" + average6.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating7 = true){
@@ -155,8 +173,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum7 += data.val();
 	 		});
 	 		var average7 = ratingSum7 / userCount7;
+			database.ref('Lighting-average').update({
+	  		Score: average7
+	 	});	 		
 	 		$(".results7").html(userCount7 + " votes recorded (" + average7.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating8 = true){
@@ -174,8 +195,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum8 += data.val();
 	 		});
 	 		var average8 = ratingSum8 / userCount8;
+			database.ref('Condition-average').update({
+	  		Score: average8
+	 	});	 		
 	 		$(".results8").html(userCount8 + " votes recorded (" + average8.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating9 = true){
@@ -193,8 +217,11 @@ var rating10 = $("#form10").submit();
 	 			ratingSum9 += data.val();
 	 		});
 	 		var average9 = ratingSum9 / userCount9;
+	 		database.ref('Price-average').update({
+	  		Score: average9
+	 	});	 		
 	 		$(".results9").html(userCount9 + " votes recorded (" + average9.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
 	  if (rating10 = true){
@@ -212,9 +239,31 @@ var rating10 = $("#form10").submit();
 	 			ratingSum10 += data.val();
 	 		});
 	 		var average10 = ratingSum10 / userCount10;
+			database.ref('Location-average').update({
+	  		Score: average10
+	 	});	 		
 	 		$(".results10").html(userCount10 + " votes recorded (" + average10.toFixed(1) + " rating)");
-	 	}, function(err){});
+	 	}, function(mlh){});
 			
 	}
+	var avg = 1
+	var avg2 = 2
+	var avg3 = 3
+	var avg4 = 4
+	var avg5 = 5
+	var avg6 = 1
+	var avg7 = 2
+	var avg8 = 4
+	var avg9 = 5
+	var avg10 = 1 
+	var total = avg + avg2 + avg3 + avg4 + avg5 + avg6 + avg7 + avg8 + avg9 + avg10;
+	
+		database.ref('Property-Score').update({
+		Score: total
+	});
+
+	$('.prop').show();
+	$('#avg').html("Total Property Score " + total);
+	// $(location).attr('href', '/app/thank-you/')   
 	return false;
 };

@@ -9,9 +9,15 @@
 .container1{
 	margin-top: -3vw;
 }
+.container-avg{
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
 .container-submit{
 	text-align: center;
 }
 .submit{
+	margin-top: 1vw;
 	margin-bottom: 2vw;
 }
