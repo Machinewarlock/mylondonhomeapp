@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="/app/app-global-css/bootstrap.css">
     <link rel="stylesheet" href="/app/app-global-css/html5-boilerplate.css">
     <link rel="stylesheet" href="/app/app-global-css/mylondonhome.css">
-    <link rel="stylesheet" href="/app/room-name/room-name.css">
+    <link rel="stylesheet" href="/app/username/username.css">
     <script src="/app/app-global-js/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="room-size">
+  <body class="username">
 
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
       <div class="container">
-        Room Name
+        Client Name
       </div>
     </nav>
 
   <div class="container">
     <div class="panel panel-primary mylondonhome-container">
       <div class="panel-heading">
-        Review Room Name
+        Client Name
       </div>
         <div class="panel-body">
+          <!-- a form with an input -->
+            <form class="form-set-username" id="form1" >
+              <input type="text" class="form-control" name="datalabel" placeholder="Choose your username">
+            </form>
 
+             <button class="btn btn-all btn-primary submit" type="submit" form="form1" value="Submit">Submit</button>
         
         </div>
     </div> <!-- end of mylondonhome-container -->
@@ -37,7 +42,7 @@
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
     <script src="/app/app-global-js/firebase-helper.js"></script>
-    <script src="/app/room-name/room-name.js"></script>
+    <script src="/app/username/username.js"></script>
     <script src="/app/app-global-js/mylondonhome-helper.js"></script>
 
   </body>

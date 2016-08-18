@@ -1,6 +1,17 @@
 .container{
 	text-align: center;
+	margin-top: -12vw;
+}
+.container-nav{
+	text-align: center;
+	margin-top: 1vw;
+}
+.container1{
+	margin-top: -3vw;
+}
+.container-submit{
+	text-align: center;
 }
 .submit{
-	margin-bottom: 5vw;
+	margin-bottom: 2vw;
 }
