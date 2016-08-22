@@ -2,3 +2,13 @@
 .view{
 	margin-top: 10vw;
 }
+body{
+	background-image: url("../mylondonhome.jpg");
+	background-size: 20% 18.4%;
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+.navbar{
+	margin-top: 8vw;
+}

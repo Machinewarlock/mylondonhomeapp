@@ -4,7 +4,6 @@
 
 .rating {
   float: left;
-  position: relative;
   margin-left: 35vw;
 }
 
@@ -57,8 +56,7 @@
   left:2px;
 }
 .navbar{
-  margin-top: 8vw;
-  background-color: #f2f2f2;
+  background-color: #004480;
 }
 .container{
   margin-top: 1vw;
@@ -72,6 +70,9 @@
 }
 .panel-body{
   text-align: center;
+}
+.panel-primary > .panel-heading{
+  background-color: #004488;
 }
 .card{
   text-align: center;

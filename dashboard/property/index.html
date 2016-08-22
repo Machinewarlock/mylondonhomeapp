@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="/app/app-global-css/bootstrap.css">
     <link rel="stylesheet" href="/app/app-global-css/html5-boilerplate.css">
     <link rel="stylesheet" href="/app/app-global-css/mylondonhome.css">
-    <link rel="stylesheet" href="/property/property.css">
+    <link rel="stylesheet" href="/dashboard/property/property.css">
     <script src="/app/app-global-js/modernizr-2.8.3.min.js"></script>
   </head>
   <body class="property">
 
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
-      <div class="container dash">
+      <div class="container prop">
         Property
       </div>
     </nav>
 
   <div class="container">
     <div class="panel panel-primary mylondonhome-container">
-      <div class="panel-heading">
+      <div class="panel-heading panel1">
         Select the property you wish to view
       </div>
       <div class="panel-body">
@@ -33,18 +33,32 @@
             <option>Insert property here2</option>
           </select>
         </div>
-        <button type="button" class="btn btn-secondary select">Select</button>
+        <button type="button" class="btn btn-success select">Select</button>
+        <ul>
+          <li id="result" class="results">Number of Viewers</li>
+          <li id="result1" class="results1">Livingroom Scored</li>
+          <li id="result2" class="results2">Diningroom Scored</li>
+          <li id="result3" class="results3">Bedroom Scored</li>
+          <li id="result4" class="results4">Bathroom Scored</li>
+          <li id="result5" class="results5">Garden Scored</li>
+          <li id="result6" class="results6">Room Sizes of the Property Scored</li>
+          <li id="result7" class="results7">Lighting of the Property Scored</li>
+          <li id="result8" class="results8">Condition of the Property Scored</li>
+          <li id="result9" class="results9">Price of the Property Scored</li>
+          <li id="result10" class="results10">Location of the Property Scored</li>
+          <li id="result11" class="results11">Property Score</li>
+        </ul> 
       </div>
     </div> <!-- end of mylondonhome-container -->
   </div> <!-- end of container -->
     
-
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>  
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
-
-    <script src="/property/property.js"></script>
+    <script src="/app/app-global-js/firebase-helper.js"></script>    
+    <script src="/dashboard/property/property.js"></script>
 
   </body>
 </html>

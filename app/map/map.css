@@ -3,3 +3,13 @@
 	margin-left: 2.2rem;
 	margin-top: 10vw;
 }
+body{
+	background-image: url("../mylondonhome.jpg");
+	background-size: 20% 45%;
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+.navbar{
+	margin-top: 8vw;
+}

@@ -5,6 +5,8 @@
 .container-nav{
 	text-align: center;
 	margin-top: 1vw;
+	color: white;
+	margin-right: 10vw;
 }
 .container1{
 	margin-top: -3vw;
@@ -20,4 +22,12 @@
 .submit{
 	margin-top: 1vw;
 	margin-bottom: 2vw;
+}
+.navbar{
+	margin-top: 0;
+}
+.home{
+	float: left;
+	margin-bottom: 1vw;
+	margin-left: 3vw;
 }

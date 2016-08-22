@@ -4,8 +4,11 @@
 }
 body{
 	background-image: url("../mylondonhome.jpg");
-	background-size: 15%;
-	background-repeat: no-repeat;
-	background-position: center top;
+	background-size: 20% 42%;
+	background-repeat: repeat-x;
+	background-position: top;
 	
+}
+.navbar{
+	margin-top: 8vw;
 }

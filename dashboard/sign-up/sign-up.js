@@ -11,7 +11,7 @@ function validateMyForm(){
     	alert("Please enter a password!");
     	return false;
     };
-    firebase.auth().signInWithEmailAndPassword(x, y).catch(function(error) {
+    firebase.auth().createUserWithEmailAndPassword(x, y).catch(function(error) {
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
