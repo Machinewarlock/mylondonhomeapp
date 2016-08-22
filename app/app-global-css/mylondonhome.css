@@ -3,9 +3,9 @@
 }
 
 .rating {
-    float: left;
-    position: relative;
-    margin-left: 35vw;
+  float: left;
+  position: relative;
+  margin-left: 35vw;
 }
 
 .rating:not(:checked) > input {
@@ -57,54 +57,56 @@
   left:2px;
 }
 .navbar{
-    background-color: #f2f2f2;
+  margin-top: 8vw;
+  background-color: #f2f2f2;
 }
 .container{
-    margin-top: 1vw;
-    color: black;
+  margin-top: 1vw;
+  color: black;
 }
 .panel{
-    margin-top: 12vw;
+  margin-top: 12vw;
 }
 .panel-heading{
-    text-align: center;
+  text-align: center;
 }
 .panel-body{
-    text-align: center;
+  text-align: center;
 }
 .card{
-    text-align: center;
-    margin-top: 5vw;
+  text-align: center;
+  margin-top: 5vw;
 }
 .overview {
-    text-align: center;
-    margin-top: 5vw;
+  text-align: center;
+  margin-top: 5vw;
 }
 li {
-    display: inline;
-    list-style: none;
-    text-align: center;
+  display: inline;
+  list-style: none;
+  text-align: center;
 }
 .home{
-    margin-right: 1vw;
-    margin-left: -2vw;
+  margin-right: 1vw;
+  margin-left: -2vw;
 }
 .map{
-
-    margin-right: 2vw;
+  margin-right: 2vw;
 }
 .leisure{
-
-    margin-left: -1vw;
+  margin-left: -1vw;
+}
+.dashboard{
+  margin-left: 1vw;
 }
 .button{
-    background-color: white;
-    border-width: 3px;
-    border-color: blue;
-    color: black;
+  background-color: white;
+  border-width: 3px;
+  border-color: blue;
+  color: black;
 }
 .button:hover{
-    background-color: #e6e6e6;
-    border-color: #1affb2;
-    color: black;
+  background-color: #e6e6e6;
+  border-color: #1affb2;
+  color: black;
 }

@@ -2,3 +2,10 @@
 .overview{
 	margin-top: 8vw;
 }
+body{
+	background-image: url("../mylondonhome.jpg");
+	background-size: 15%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+}
