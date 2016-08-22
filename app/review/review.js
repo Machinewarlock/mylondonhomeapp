@@ -230,6 +230,6 @@ function processSubmit(){
 			$('.prop').show();
 			$('#avg').html("Total Property Score " + total);
 	 	}, function(mlh){});
-	//$(location).attr('href', '/app/thank-you/')   
+	$(location).attr('href', '/app/thank-you/')   
 	return false;
 };
