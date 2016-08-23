@@ -2,13 +2,8 @@
 .overview{
 	margin-top: 8vw;
 }
-body{
-	background-image: url("../mylondonhome.jpg");
-	background-size: 20% 42%;
-	background-repeat: repeat-x;
-	background-position: top;
-	
-}
-.navbar{
-	margin-top: 8vw;
+section{
+	text-align: center;
+	margin-top: 7rem;
+	font-size: 25px;
 }

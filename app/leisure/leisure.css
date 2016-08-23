@@ -2,13 +2,17 @@
 .view{
 	margin-top: 10vw;
 }
-body{
-	background-image: url("../mylondonhome.jpg");
-	background-size: 20% 18.4%;
-	background-repeat: repeat-x;
-	background-position: top;
-	
+.panel-body li{
+	display: block;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #004488;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 25px;
+	margin-right: 50px;
 }
-.navbar{
-	margin-top: 8vw;
+img{
+	width: 1008px;
+	height: 500px;
 }

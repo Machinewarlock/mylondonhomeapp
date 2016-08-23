@@ -80,7 +80,6 @@
 }
 .overview {
   text-align: center;
-  margin-top: 5vw;
 }
 li {
   display: inline;
@@ -105,9 +104,17 @@ li {
   border-width: 3px;
   border-color: blue;
   color: black;
+
 }
 .button:hover{
   background-color: #e6e6e6;
   border-color: #1affb2;
   color: black;
+}
+.navbar-form{
+  margin: auto;
+  margin-right: 25vw;
+}
+.app{
+  margin-top: 1vw;
 }
