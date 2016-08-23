@@ -14,7 +14,7 @@ function setupFirebase(){
     apiKey: "AIzaSyDP7EhnmEjTxoDbXjPD6wRsGHVzFN1IPM0",
     authDomain: "mylondonhomeapp-test.firebaseapp.com",
     databaseURL: "https://mylondonhomeapp-test.firebaseio.com",
-    storageBucket: "",
+    storageBucket: "mylondonhomeapp-test.appspot.com",
   };
   firebase.initializeApp(config);
 }
