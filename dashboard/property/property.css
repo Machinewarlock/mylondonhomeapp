@@ -3,6 +3,7 @@
 }
 .prop{
 	color: white;
+	margin-top: 10px;
 }
 li{
 	display: block;
@@ -12,4 +13,14 @@ li{
 	margin-top: 5px;
 	text-align: center;
 	font-size: 50px;
+}
+.panel{
+	margin-top: 5rem;
+}
+.panel-heading{
+	font-size: 16px;
+}
+.home{
+	margin-left: 5vw;
+	margin-bottom: 5px;
 }

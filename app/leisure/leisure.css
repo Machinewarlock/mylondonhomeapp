@@ -20,3 +20,9 @@ img{
 	height:auto;
 	max-width: 100%;
 }
+.panel-heading{
+	font-size: 30px;
+}
+.panel{
+	margin-top: 12rem;
+}

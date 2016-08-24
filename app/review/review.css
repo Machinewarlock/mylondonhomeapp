@@ -1,15 +1,14 @@
 .container{
 	text-align: center;
-	margin-top: -12vw;
+	margin-top: -13vw;
 }
 .container-nav{
-	text-align: center;
 	margin-top: 1vw;
 	color: white;
-	margin-right: 10vw;
+	margin-left: 12vw;
 }
 .container1{
-	margin-top: -3vw;
+	margin-top: 7vw;
 }
 .container-avg{
 	text-align: center;
@@ -23,11 +22,8 @@
 	margin-top: 1vw;
 	margin-bottom: 2vw;
 }
-.navbar{
-	margin-top: 0;
-}
 .home{
-	float: left;
-	margin-bottom: 1vw;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	margin-left: 3vw;
 }

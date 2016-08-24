@@ -10,6 +10,7 @@ function processSelect(){
 
 	if (view == "Insert property here") {
 		$(".panel1").html("Property Data");
+		document.getElementById("myP").style.fontSize = "xx-large";
 		$(".form-group").hide();	
 		$(".select").hide();
 		$("li").show();
@@ -442,5 +443,7 @@ function processSelectList(){
 		$(".form-group").show();	
 		$(".select").show();
 		$("li").hide();
-		$('.sl').hide();	
+		$('.sl').hide();
+		$(".panel1").html("Select the property you wish to view");
+		document.getElementById("myP").style.fontSize = "medium";	
 }
