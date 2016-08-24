@@ -1,11 +1,15 @@
 .container{
 	text-align: center;
 	margin-top: -13vw;
+	font-family: 'Hind Guntur', sans-serif;
+	font-weight: bold;
 }
 .container-nav{
 	margin-top: 1vw;
 	color: white;
 	margin-left: 12vw;
+	font-family: 'Hind Guntur', sans-serif;
+	font-weight: bold;
 }
 .container1{
 	margin-top: 7vw;
