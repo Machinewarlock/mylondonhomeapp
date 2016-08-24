@@ -1,23 +1,23 @@
 .container{
-	text-align: center;
-	margin-top: -13vw;
 	font-family: 'Hind Guntur', sans-serif;
 	font-weight: bold;
+	margin-top: -13vw;
+	text-align: center;
 }
 .container-nav{
-	margin-top: 1vw;
 	color: white;
-	margin-left: 12vw;
 	font-family: 'Hind Guntur', sans-serif;
 	font-weight: bold;
+	margin-left: 12vw;
+	margin-top: 1vw;
 }
 .container1{
 	margin-top: 7vw;
 }
 .container-avg{
-	text-align: center;
-	margin-top: 1vw;
 	margin-bottom: 1vw;
+	margin-top: 1vw;
+	text-align: center;
 }
 .container-submit{
 	text-align: center;

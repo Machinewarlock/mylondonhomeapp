@@ -14,16 +14,16 @@
 }
 
 .rating:not(:checked) > label {
-  float:right;
-  width:1em;
-  padding:0 .1em;
-  overflow:hidden;
-  white-space:nowrap;
+  color:#ddd;
   cursor:pointer;
+  float:right;
   font-size:200%;
   line-height:1.2;
-  color:#ddd;
+  overflow:hidden;
+  padding:0 .1em;
   text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+  white-space:nowrap;
+  width:1em;
 }
 
 .rating:not(:checked) > label:before {

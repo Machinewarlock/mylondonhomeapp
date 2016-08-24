@@ -3,21 +3,21 @@
 	margin-top: 10vw;
 }
 .panel-body li{
-	display: block;
+	border-color: #004488;
 	border-style: solid;
 	border-width: 5px;
-	border-color: #004488;
-	margin-top: 5px;
-	text-align: center;
+	display: block;
 	font-size: 25px;
 	margin-right: 50px;
-	min-height: 50px;
+	margin-top: 5px;
 	max-height: auto;
 	max-width: 1000px;
+	min-height: 50px;
+	text-align: center;
 }
 img{
-	max-height: 100%;
 	height:auto;
+	max-height: 100%;
 	max-width: 100%;
 }
 .panel-heading{

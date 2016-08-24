@@ -3,16 +3,16 @@ $('.prop').hide();
 var username = getUsername();
 $('.username').html(username);
 
-var average = 0
-var average2 = 0
-var average3 = 0
-var average4 = 0
-var average5 = 0
-var average6 = 0
-var average7 = 0
-var average8 = 0
-var average9 = 0
-var average10 = 0
+var average = 0;
+var average2 = 0;
+var average3 = 0;
+var average4 = 0;
+var average5 = 0;
+var average6 = 0;
+var average7 = 0;
+var average8 = 0;
+var average9 = 0;
+var average10 = 0;
 
 function processSubmit(){
 
