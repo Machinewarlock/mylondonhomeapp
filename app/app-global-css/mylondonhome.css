@@ -96,19 +96,31 @@ li {
   margin-left: -1vw;
 }
 .button{
-  background-color: white;
-  border-width: 3px;
-  border-color: blue;
-  color: black;
+  background-color: #004488;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  transition: all 0.7s ease 0s;
 }
 .button:hover{
-  background-color: #e6e6e6;
-  border-color: #1affb2;
-  color: black;
+  background-color: white;
+  border-color: white;
+  color: #004488;
+
 }
 .app{
-  margin-top: 1vw;
+  background-color: #f7d500;
+  border-color: #e6c600;
+  color: #002645;
   margin-bottom: 1vw;
+  margin-top: 1vw;
+  transition: all 0.7s ease 0s;
+
+}
+.app:hover{
+  background-color: #e6c600;
+  border-color: #f7d500;
+  color: white;
 }
 .navbar-form{
   margin-left: -8vw;

@@ -24,3 +24,25 @@ li{
 	margin-left: 5vw;
 	margin-bottom: 5px;
 }
+.select{
+  background-color: #f7d500;
+  border-color: #e6c600;
+  color: #002645;
+  transition: all 0.7s ease 0s;
+}
+.select:hover{
+  background-color: #e6c600;
+  border-color: #f7d500;
+  color: white;
+}
+.sl{
+  background-color: #f7d500;
+  border-color: #e6c600;
+  color: #002645;
+  transition: all 0.7s ease 0s;
+}
+.sl:hover{
+  background-color: #e6c600;
+  border-color: #f7d500;
+  color: white;
+}

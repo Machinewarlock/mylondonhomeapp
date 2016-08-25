@@ -4,9 +4,6 @@
 .checkbox{
 	text-align: left;
 }
-.sign{
-	margin-right: 100rem;
-}
 .dash{
 	color: white;
 }
@@ -18,4 +15,16 @@
 }
 .panel{
 	margin-top: 5rem;
+}
+.sign{
+  background-color: #f7d500;
+  border-color: #e6c600;
+  color: #002645;
+  margin-right: 100rem;
+  transition: all 0.7s ease 0s;
+}
+.sign:hover{
+  background-color: #e6c600;
+  border-color: #f7d500;
+  color: white;
 }
