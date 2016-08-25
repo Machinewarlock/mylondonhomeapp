@@ -87,7 +87,7 @@ li {
   text-align: center;
 }
 .home{
-  margin-left: -1vw;
+  margin-left: -10vw;
 }
 .map{
   margin-right: 1vw;
@@ -109,4 +109,8 @@ li {
 .app{
   margin-top: 1vw;
   margin-bottom: 1vw;
+}
+.navbar-form{
+  margin-left: -8vw;
+  margin-right: 2vw;
 }
