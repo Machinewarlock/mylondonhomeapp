@@ -87,34 +87,26 @@ li {
   text-align: center;
 }
 .home{
-  margin-right: 1vw;
-  margin-left: -2vw;
+  margin-left: -1vw;
 }
 .map{
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 .leisure{
   margin-left: -1vw;
-}
-.dashboard{
-  margin-left: 1vw;
 }
 .button{
   background-color: white;
   border-width: 3px;
   border-color: blue;
   color: black;
-
 }
 .button:hover{
   background-color: #e6e6e6;
   border-color: #1affb2;
   color: black;
 }
-.navbar-form{
-  margin: auto;
-  margin-right: 25vw;
-}
 .app{
   margin-top: 1vw;
+  margin-bottom: 1vw;
 }
