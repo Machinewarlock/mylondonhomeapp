@@ -1,5 +1,5 @@
 $('.submit').click(processSubmit);
-$('.prop').hide();
+// $('.prop').hide();
 var username = getUsername();
 $('.username').html(username);
 
@@ -227,8 +227,8 @@ function processSubmit(){
 			database.ref('Property-Score').update({
 			Score: total
 		});	
-			$('.prop').show();
-			$('#avg').html("Total Property Score " + total);
+			// $('.prop').show();
+			// $('#avg').html("Total Property Score " + total);
 	 	}, function(mlh){});
 	$(location).attr('href', '/app/thank-you/')   
 	return false;
