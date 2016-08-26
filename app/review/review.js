@@ -20,8 +20,8 @@ function processSubmit(){
 			database.ref('Livingroom').update({
 	  		[username]: a
 	 	});
-		$(".panel1").html("MLH thanks you for your data on the Livingroom.");
-	 	$("#form1").remove();	
+		// $(".panel1").html("MLH thanks you for your data on the Livingroom.");
+	 // 	$("#form1").remove();	
 		database.ref('Livingroom').on('value', function(snapshot){
 	 		var userCount = 0;
 	 		var ratingSum = 0;
@@ -33,7 +33,7 @@ function processSubmit(){
 			database.ref('Livingroom-average').update({
 	  		Score: average
 	 	});	 		
-	 		$(".results").html(userCount + " votes recorded (" + average.toFixed(1) + " rating)");
+	 		// $(".results").html(userCount + " votes recorded (" + average.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 
 
@@ -41,8 +41,8 @@ function processSubmit(){
 			database.ref('Diningroom').update({
 	  		[username]: b
 	 	});
-		$(".panel2").html("MLH thanks you for your data on the Diningroom.");
-	 	$("#form2").remove();	
+		// $(".panel2").html("MLH thanks you for your data on the Diningroom.");
+	 // 	$("#form2").remove();	
 		database.ref('Diningroom').on('value', function(snapshot){
 	 		var userCount2 = 0;
 	 		var ratingSum2 = 0;
@@ -54,7 +54,7 @@ function processSubmit(){
 			database.ref('Diningroom-average').update({
 	  		Score: average2
 	 	});	 		
-	 		$(".results2").html(userCount2 + " votes recorded (" + average2.toFixed(1) + " rating)");
+	 		// $(".results2").html(userCount2 + " votes recorded (" + average2.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 
 
@@ -62,8 +62,8 @@ function processSubmit(){
 			database.ref('Bedroom').update({
 	  		[username]: c
 	 	});
-		$(".panel3").html("MLH thanks you for your data on the Bedroom.");
-	 	$("#form3").remove();	
+		// $(".panel3").html("MLH thanks you for your data on the Bedroom.");
+	 // 	$("#form3").remove();	
 		database.ref('Bedroom').on('value', function(snapshot){
 	 		var userCount3 = 0;
 	 		var ratingSum3 = 0;
@@ -75,7 +75,7 @@ function processSubmit(){
 			database.ref('Bedroom-average').update({
 	  		Score: average3
 	 	});	 		
-	 		$(".results3").html(userCount3 + " votes recorded (" + average3.toFixed(1) + " rating)");
+	 		// $(".results3").html(userCount3 + " votes recorded (" + average3.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -83,8 +83,8 @@ function processSubmit(){
 			database.ref('Bathroom').update({
 	  		[username]: d
 	 	});
-		$(".panel4").html("MLH thanks you for your data on the Bathroom.");
-	 	$("#form4").remove();	
+		// $(".panel4").html("MLH thanks you for your data on the Bathroom.");
+	 // 	$("#form4").remove();	
 		database.ref('Bathroom').on('value', function(snapshot){
 	 		var userCount4 = 0;
 	 		var ratingSum4 = 0;
@@ -96,7 +96,7 @@ function processSubmit(){
 			database.ref('Bathroom-average').update({
 	  		Score: average4
 	 	});	 		
-	 		$(".results4").html(userCount4 + " votes recorded (" + average4.toFixed(1) + " rating)");
+	 		// $(".results4").html(userCount4 + " votes recorded (" + average4.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -104,8 +104,8 @@ function processSubmit(){
 			database.ref('Garden').update({
 	  		[username]: e
 	 	});
-		$(".panel5").html("MLH thanks you for your data on the Garden.");
-	 	$("#form5").remove();	
+		// $(".panel5").html("MLH thanks you for your data on the Garden.");
+	 // 	$("#form5").remove();	
 		database.ref('Garden').on('value', function(snapshot){
 	 		var userCount5 = 0;
 	 		var ratingSum5 = 0;
@@ -117,7 +117,7 @@ function processSubmit(){
 			database.ref('Garden-average').update({
 	  		Score: average5
 	 	});	 		
-	 		$(".results5").html(userCount5 + " votes recorded (" + average5.toFixed(1) + " rating)");
+	 		// $(".results5").html(userCount5 + " votes recorded (" + average5.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -125,8 +125,8 @@ function processSubmit(){
 			database.ref('Room-Sizes').update({
 	  		[username]: f
 	 	});
-		$(".panel6").html("MLH thanks you for your data on the Room Sizes.");
-	 	$("#form6").remove();	
+		// $(".panel6").html("MLH thanks you for your data on the Room Sizes.");
+	 // 	$("#form6").remove();	
 		database.ref('Room-Sizes').on('value', function(snapshot){
 	 		var userCount6 = 0;
 	 		var ratingSum6 = 0;
@@ -138,7 +138,7 @@ function processSubmit(){
 			database.ref('Room-Sizes-average').update({
 	  		Score: average6
 	 	});	 			 		
-	 		$(".results6").html(userCount6 + " votes recorded (" + average6.toFixed(1) + " rating)");
+	 		// $(".results6").html(userCount6 + " votes recorded (" + average6.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -146,8 +146,8 @@ function processSubmit(){
 			database.ref('Lighting').update({
 	  		[username]: g
 	 	});
-		$(".panel7").html("MLH thanks you for your data on the Lighting of the Property.");
-	 	$("#form7").remove();	
+		// $(".panel7").html("MLH thanks you for your data on the Lighting of the Property.");
+	 // 	$("#form7").remove();	
 		database.ref('Lighting').on('value', function(snapshot){
 	 		var userCount7 = 0;
 	 		var ratingSum7 = 0;
@@ -159,7 +159,7 @@ function processSubmit(){
 			database.ref('Lighting-average').update({
 	  		Score: average7
 	 	});	 		
-	 		$(".results7").html(userCount7 + " votes recorded (" + average7.toFixed(1) + " rating)");
+	 		// $(".results7").html(userCount7 + " votes recorded (" + average7.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -167,8 +167,8 @@ function processSubmit(){
 			database.ref('Condition').update({
 	  		[username]: h
 	 	});
-		$(".panel8").html("MLH thanks you for your data on the Condition of the Property.");
-	 	$("#form8").remove();	
+		// $(".panel8").html("MLH thanks you for your data on the Condition of the Property.");
+	 // 	$("#form8").remove();	
 		database.ref('Condition').on('value', function(snapshot){
 	 		var userCount8 = 0;
 	 		var ratingSum8 = 0;
@@ -180,7 +180,7 @@ function processSubmit(){
 			database.ref('Condition-average').update({
 	  		Score: average8
 	 	});	 		
-	 		$(".results8").html(userCount8 + " votes recorded (" + average8.toFixed(1) + " rating)");
+	 		// $(".results8").html(userCount8 + " votes recorded (" + average8.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 			
 
@@ -188,8 +188,8 @@ function processSubmit(){
 			database.ref('Price').update({
 	  		[username]: i
 	 	});
-		$(".panel9").html("MLH thanks you for your data on the Price of the Property.");
-	 	$("#form9").remove();	
+		// $(".panel9").html("MLH thanks you for your data on the Price of the Property.");
+	 // 	$("#form9").remove();	
 		database.ref('Price').on('value', function(snapshot){
 	 		var userCount9 = 0;
 	 		var ratingSum9 = 0;
@@ -201,7 +201,7 @@ function processSubmit(){
 	 		database.ref('Price-average').update({
 	  		Score: average9
 	 	});	 		
-	 		$(".results9").html(userCount9 + " votes recorded (" + average9.toFixed(1) + " rating)");
+	 		// $(".results9").html(userCount9 + " votes recorded (" + average9.toFixed(1) + " rating)");
 	 	}, function(mlh){});
 
 
@@ -209,8 +209,8 @@ function processSubmit(){
 			database.ref('Location').update({
 	  		[username]: j
 	 	});
-		$(".panel10").html("MLH thanks you for your data on the Location of the Property.");
-	 	$("#form10").remove();	
+		// $(".panel10").html("MLH thanks you for your data on the Location of the Property.");
+	 // 	$("#form10").remove();	
 		database.ref('Location').on('value', function(snapshot){
 	 		var userCount10 = 0;
 	 		var ratingSum10 = 0;
@@ -222,7 +222,7 @@ function processSubmit(){
 			database.ref('Location-average').update({
 	  		Score: average10
 	 	});	 		
-	 		$(".results10").html(userCount10 + " votes recorded (" + average10.toFixed(1) + " rating)");
+	 		// $(".results10").html(userCount10 + " votes recorded (" + average10.toFixed(1) + " rating)");
 	 		var total = (average + average2 + average3 + average4 + average5 + average6 + average7 + average8 + average9 + average10).toFixed(1);
 			database.ref('Property-Score').update({
 			Score: total

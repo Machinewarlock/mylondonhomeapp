@@ -1,0 +1,19 @@
+/*css goes here*/
+.overview{
+	margin-top: 8vw;
+}
+section{
+	color: #0065a2;
+	font-size: 25px;
+	margin-top: 15rem;
+	text-align: center;
+}
+p{
+	margin: 1.5vw;
+}
+.panel-heading{
+	font-size: 30px;
+}
+.panel{
+	margin-top: 10rem;
+}

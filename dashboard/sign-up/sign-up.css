@@ -15,6 +15,7 @@
 }
 .panel{
 	margin-top: 5rem;
+  overflow-x: hidden;
 }
 .sign{
   background-color: #f7d500;

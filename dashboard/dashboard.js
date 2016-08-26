@@ -1,20 +1,24 @@
 $('.sign').click(validateMyForm);
 
 function validateMyForm(){
-   var x = $("#inputEmail3").val();
-   var y = $("#inputPassword3").val();
-    if (x == "" || x == null) {
+   var email = $('input[name=email]').val();
+    if (email == "" || email == null) {
         alert("Please enter an email!");
         return false;
     };
-    if (y == "" || y == null) {
+    localStorage.setItem('email', email);
+        database.ref('email-address/'+ email).set({
+        Email: email
+    });     
+
+    var password = $('input[name=password]').val();
+    if (password == "" || password == null) {
     	alert("Please enter a password!");
     	return false;
     };
-    firebase.auth().signInWithEmailAndPassword(x, y).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  // ...
-});
+    localStorage.setItem('password', password);
+        database.ref('password/'+ [email]).set({
+        [email]: password
+    });
+    $(location).attr('href', '/dashboard/property/') 
 }

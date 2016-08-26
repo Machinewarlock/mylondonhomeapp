@@ -46,3 +46,6 @@ li{
   border-color: #f7d500;
   color: white;
 }
+.prop-data{
+	display: none;
+}

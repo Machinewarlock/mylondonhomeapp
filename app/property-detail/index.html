@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Leisure</title>
+    <title>Add Property</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="/app/app-global-css/bootstrap.css">
     <link rel="stylesheet" href="/app/app-global-css/html5-boilerplate.css">
     <link rel="stylesheet" href="/app/app-global-css/mylondonhome.css">
-    <link rel="stylesheet" href="/app/leisure/leisure.css">
+    <link rel="stylesheet" href="/app/property-detail/property-detail.css">
     <script src="/app/app-global-js/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="leisure overview">
+  <body class="overview">
 
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
       <div class="container">
@@ -54,54 +54,45 @@
     </nav>
 
     <div class="container">
-        <div class="panel panel-primary mylondonhome-container">
-          <div class="panel-heading">
-            Leisure on offer in this property
-          </div>
+      <div class="panel panel-primary mylondonhome-container">
+        <div class="panel-heading">
+          Enter Property Details
+        </div>
           <div class="panel-body">
-           <ul>
-             <li>
-             <img src="https://5bf885dba0282c07f554-6a799ff2651ee293c7bf3da870db9264.ssl.cf3.rackcdn.com/property_image.x.v1/for-sale/Wolfe-House-Kensington-London-W14/3667/3667_epgt8deh08m1z8gy2hzb89pbr.jpg"> 
-             <br>
-               Gym
-             </li>
-             <li>
-             <img src="https://5bf885dba0282c07f554-6a799ff2651ee293c7bf3da870db9264.ssl.cf3.rackcdn.com/property_image.x.v1/for-sale/Wolfe-House-Kensington-London-W14/3667/3667_dkicmt2ih25mraxle0mwqsxpf.jpg">
-             <br>  
-               Swimming Pool
-             </li>
-             <li>
-             <img src="https://5bf885dba0282c07f554-6a799ff2651ee293c7bf3da870db9264.ssl.cf3.rackcdn.com/property_image.x.v1/for-sale/Distillery-Wharf-Fulham-London-SW6/3662/3662_74nfyari2z738a7m1yzby6gq7.jpg">
-             <br>
-               Cinema
-             </li>
-             <li>
-             <img src="https://5bf885dba0282c07f554-6a799ff2651ee293c7bf3da870db9264.ssl.cf3.rackcdn.com/property_image.x.v1/for-sale/Tower-Two-Albert-Embankment-London-SE1/5336/5336_1pcj786gpweb4nsvliepd0lee.jpg">
-             <br>
-               Private Balcony
-             </li>             
-             <li>
-<!--              <img src="">
-             <br> -->
-               Private Parking
-             </li>
-             <li>
-<!--              <img src="">
-             <br> -->             
-               24hr Concierge
-             </li>                                                    
-           </ul>
-          </div>
-        </div> <!-- end of mylondonhome-container -->
-    </div> <!-- end of container -->
-    
+            <!-- a form with an input -->
+              <form class="form-set-property" id="form1">
+                <input type="text" class="form-control" name="datalabel1" placeholder="Property Address">
+              </form>
 
+              <form class="form-set-price" id="form2">
+                <input type="text" class="form-control" name="datalabel2" placeholder="Price">
+              </form>              
+
+              <form class="form-set-bedroom" id="form3">
+                <input type="text" class="form-control" name="datalabel3" placeholder="Number of Bedrooms">
+              </form>
+
+              <form class="form-set-bathroom" id="form4">
+                <input type="text" class="form-control" name="datalabel4" placeholder="Number of Bathrooms">
+              </form>
+
+              <form class="form-set-reception" id="form5">
+                <input type="text" class="form-control" name="datalabel5" placeholder="Number of Receptions">
+              </form>                                                                   
+
+               <button class="btn btn-all app submit" type="submit" form="form1" value="Submit">Submit</button>
+          
+          </div>
+      </div> <!-- end of mylondonhome-container -->
+    </div> <!-- end of container -->
+
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
-
-    <script src="/app/leisure/leisure.js"></script>
+    <script src="/app/app-global-js/firebase-helper.js"></script>
+    <script src="/app/property-detail/property-detail.js"></script>
 
   </body>
 </html>

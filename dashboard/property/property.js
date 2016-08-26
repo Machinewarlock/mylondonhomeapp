@@ -13,6 +13,7 @@ function processSelect(){
 		document.getElementById("myP").style.fontSize = "xx-large";
 		$(".form-group").hide();	
 		$(".select").hide();
+		$(".prop-data").show();
 		$("li").show();
 		$('.sl').show();
 		database.ref('Livingroom').on('value', function(snapshot){
