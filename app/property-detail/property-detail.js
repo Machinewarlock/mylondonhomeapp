@@ -50,7 +50,7 @@ function processForm() {
 		database.ref('property-reception/'+ [property]).set({
     	[property]: reception
     });
-	//$(location).attr('href', '/app/instruction/')
+	$(location).attr('href', '/app/overview')
 	alert(property + ' added!')	
  	return false; 	
 };
