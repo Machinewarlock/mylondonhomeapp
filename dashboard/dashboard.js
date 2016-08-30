@@ -20,5 +20,5 @@ function validateMyForm(){
         database.ref('password/'+ [email]).set({
         [email]: password
     });
-    $(location).attr('href', '/dashboard/property/') 
+    $(location).attr('href', '/dashboard/property/');
 }
