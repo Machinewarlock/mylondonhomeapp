@@ -1,10 +1,9 @@
-$('.submit').click(processForm);
+$('.submit').click(processResult);
 
 var result = getResult();
 $('span').html(result);
 
-function processForm() {
+function processResult() {
 	var result = $('input').val();
 	localStorage.setItem('result', result);
-	$(location).attr('href', '/app/search-results/');
 }
