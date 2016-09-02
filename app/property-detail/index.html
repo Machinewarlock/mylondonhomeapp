@@ -46,7 +46,7 @@
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
-              <button type="submit" class="btn button">Submit</button>
+              <a class="btn property button submite" href="/app/search-results/" role="button">Submit</a>
             </form>
           </li>
         </ul>
@@ -61,7 +61,7 @@
           <div class="panel-body">
             <!-- a form with an input -->
             <form class="form-horizontal">
-              <label for="inputEmail3" class="col-sm-2 control-label">Property Address</label>
+              <label class="col-sm-2 control-label">Property</label>
                 <form class="form-set-property" id="form1">
                   <div class="col-sm-10">
                     <input type="text" class="form-control" name="datalabel1" placeholder="Enter Property Address...">
@@ -70,7 +70,7 @@
             </form>  
 
             <form class="form-horizontal">
-              <label for="inputEmail3" class="col-sm-2 control-label">Price</label>
+              <label  class="col-sm-2 control-label">Price</label>
                 <form class="form-set-price" id="form2">
                   <div class="col-sm-10">
                     <input type="text" class="form-control" name="datalabel2" placeholder="Enter Price...">
@@ -79,28 +79,46 @@
             </form>
 
             <form class="form-horizontal">
-              <label for="inputEmail3" class="col-sm-2 control-label">Bedrooms</label>              
-                <form class="form-set-bedroom" id="form3">
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="datalabel3" placeholder="Enter Number of Bedrooms...">
-                  </div>
-                </form>
-            </form>
-
-            <form class="form-horizontal">
-              <label for="inputEmail3" class="col-sm-2 control-label">Bathrooms</label>                 
-                <form class="form-set-bathroom" id="form4">
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="datalabel4" placeholder="Enter Number of Bathrooms...">
-                  </div>
-                </form>
-            </form>
-
-            <form class="form-horizontal">
-              <label for="inputEmail3" class="col-sm-2 control-label">Receptions</label>               
+              <label class="col-sm-2 control-label">Bedrooms</label>               
                 <form class="form-set-reception" id="form5">
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="datalabel5" placeholder="Enter Number of Receptions...">
+                    <select class="form-control" id="sel1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </form>                                                                   
+            </form>
+
+            <form class="form-horizontal">
+              <label class="col-sm-2 control-label">Bathrooms</label>               
+                <form class="form-set-reception" id="form5">
+                  <div class="col-sm-10">
+                    <select class="form-control" id="sel2">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </form>                                                                   
+            </form>
+
+            <form class="form-horizontal">
+              <label class="col-sm-2 control-label">Receptions</label>               
+                <form class="form-set-reception" id="form5">
+                  <div class="col-sm-10">
+                    <select class="form-control" id="sel3">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
                   </div>
                 </form>                                                                   
             </form>
@@ -117,6 +135,7 @@
     <script src="/app/app-global-js/tether.js"></script>
     <script src="/app/app-global-js/bootstrap.js"></script>
     <script src="/app/app-global-js/firebase-helper.js"></script>
+    <script src="/app/app-global-js/mylondonhome-helper.js"></script>
     <script src="/app/property-detail/property-detail.js"></script>
 
   </body>

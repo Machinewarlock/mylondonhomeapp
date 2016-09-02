@@ -21,36 +21,35 @@ function processForm() {
     	[property]: price
     });
 
-	var bedroom = $('input[name=datalabel3]').val();
-	if (bedroom == null || bedroom == ""){
- 		alert("Please Enter No. of Bedrooms!")
- 		return false;
- 	}
- 	localStorage.setItem('bedroom', bedroom);
-		database.ref('property-bedroom/'+ [property]).set({
-    	[property]: bedroom
-    });
+	var view = $("#sel1 option:selected").text();
+	console.log(view);
+		database.ref('property-bedroom/' + [property]).update({
+		[property]: view
+});
 
-	var bathroom = $('input[name=datalabel4]').val();
-	if (bathroom == null || bathroom == ""){
- 		alert("Please Enter No. of Bathrooms!")
- 		return false;
- 	}
- 	localStorage.setItem('bathroom', bathroom);
-		database.ref('property-bathroom/'+ [property]).set({
-    	[property]: bathroom
-    });
+	var view2 = $("#sel2 option:selected").text();
+	console.log(view);
+		database.ref('property-bathroom/' + [property]).update({
+		[property]: view2
+});
 
-	var reception = $('input[name=datalabel5]').val();
-	if (reception == null || reception == ""){
- 		alert("Please Enter No. of Receptions!")
- 		return false;
- 	}
- 	localStorage.setItem('reception', reception);
-		database.ref('property-reception/'+ [property]).set({
-    	[property]: reception
-    });
+	var view3 = $("#sel3 option:selected").text();
+	console.log(view);
+		database.ref('property-reception/' + [property]).update({
+		[property]: view3
+});
+
 	$(location).attr('href', '/app/overview')
 	alert(property + ' added!')	
  	return false; 	
 };
+
+$('.submite').click(processResult);
+
+var result = getResult();
+$('span').html(result);
+
+function processResult() {
+	var result = $('input').val();
+	localStorage.setItem('result', result);
+}
